@@ -2,11 +2,6 @@
 
 A full-stack Customer Relationship Management (CRM) application built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This application allows users to manage customers and their associated leads with a modern, responsive interface.
 
-## 🚀 Live Demo
-
-- **Frontend**: [https://mini-crm-frontend.onrender.com](https://mini-crm-frontend.onrender.com)
-- **Backend API**: [https://mini-crm-backend.onrender.com](https://mini-crm-backend.onrender.com)
-
 
 ## ✨ Features
 
