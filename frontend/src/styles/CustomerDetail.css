@@ -1,0 +1,152 @@
+.customer-detail-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.customer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.customer-header h1 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.customer-actions {
+  display: flex;
+  gap: 15px;
+}
+
+.customer-info {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.info-item {
+  margin-bottom: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.leads-section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.leads-section h2 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.leads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.lead-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 15px;
+  transition: box-shadow 0.3s ease;
+}
+
+.lead-card:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.lead-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.lead-header h3 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.status-badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-new {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.status-contacted {
+  background-color: #fff3e0;
+  color: #f57c00;
+}
+
+.status-converted {
+  background-color: #e8f5e8;
+  color: #2e7d32;
+}
+
+.status-lost {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.lead-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
+
+.lead-value {
+  font-weight: 500;
+  color: #28a745;
+}
+
+.lead-date {
+  color: #6c757d;
+}
+
+.lead-actions {
+  margin-top: 15px;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .customer-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .customer-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .leads-grid {
+    grid-template-columns: 1fr;
+  }
+}
